@@ -6,4 +6,5 @@ import streamlit as st
 
 st.title("Kaç yaşındasın")
 dogum=st.number_input("Doğum tarihiniz")
-yas=
+yas=2022-dogum
+st.subheader(yas)
